@@ -51,3 +51,7 @@ if (token) {
 //     broadcaster: 'pusher',
 //     key: 'your-pusher-key'
 // });
+
+let SpeechRecognition = SpeechRecognition || webkitSpeechRecognition
+let SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList
+let SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEvent
